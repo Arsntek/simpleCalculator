@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculator{
+  width: 330px;
+  height: 487px;
+  border: 10px solid black;
+}
+
+#display{
+  width: 325px;
+  height: 100px;
+  padding-right: 5px;
+  margin-bottom: 1px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.buttons{
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.clear{
+  width: 236px;
+  height: 75px;
+  outline: none;
+}
+
+.operand{
+  width: 75px;
+  height: 75px;
+  outline: none;
+}
+
+.operator, .equal{
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+}
+
+#zero{
+  width: 236px;
+  height: 75px;
+}
+
